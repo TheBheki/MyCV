@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <section class="header">
+        <!--<img class="header_logo" src="logo.png" alt="Logo">-->
+        <h1>Online Resume</h1>
+    </section>
+    <section class="navbar">
+        <!--I created a navigation bar with links to help the user jump to specific sections of the CV.-->
+        <a href="#about">About Me</a>
+        <a href="#profile">Profile</a>
+        <a href="#professional_skills">Professional Skills</a>
+        <a href="#other_skills">Other Skills</a>
+        <a href="#prog_lang">Programming Languages</a>
+        <a href="#work_experience">Work Experience</a>
+    </section>
+    <main>
+        <!--The 'main' element will have two section; namely, "Summary" (for a detailed breakdown of my profile) and "Main Content"(for a list of my work experience).-->
+        <section class="summary">
+            <img class="profile_picture" src="bheki.jpg" alt="Profile Picture">
+            <section class="side_panel">
+                <h1 id="about">About Me</h1>
+                <p class="about_me">I am an Industrial Engineer by qualification who boasts 14 years of working
+                    experience in the
+                    automotive industry. I am looking to enhance my skills by adopting web development as a tool for
+                    problem solving.</p>
+                <hr>
+                <!--I added a horizontal line, which will be styled, after each segment to simplify the look of the summary section.-->
+                <!--Each segment will have a h1 element for the heading.-->
+                <h1 id="profile">Profile</h1>
+                <section class="logo_images">
+                    <!--I created packets to hold pairs of information, which consist of a picture/logo and description next to the picture.-->
+                    <section class="packet">
+                        <img src="profile_logo.png" alt="Name">
+                        <p class="profile">Bheki Mdhluli</p>
+                    </section>
+                    <section class="packet">
+                        <img src="email_logo.jpg" alt="Email">
+                        <p class="profile"><a href="mailto::bheki.vernon@gmail.com">bheki.vernon@gmail.com</a></p>
+                    </section>
+                </section>
+                <hr>
+                <h1 id="professional_skills">Professional Skills</h1>
+                <ul class="p_skills">
+                    <li>Problem Solving</li>
+                    <li>Human Resource Management</li>
+                    <li>Presenting</li>
+                    <li>Training</li>
+                    <li>Scrap Management</li>
+                </ul>
+                <hr>
+                <h1 id="other_skills">Other Skills</h1>
+                <ul>
+                    <li>Time Management | Line Balancing | SAP | Communcation | Coaching</li>
+                </ul>
+                <hr>
+                <h1 id="prog_lang">Web Development Content</h1>
+                <ul>
+                    <li>HTML | CSS | Javascript</li>
+                </ul>
+            </section>
+        </section>
+        <!--The "main content" section will take up more space, as it will be the focus area to highlight my responsibilties in each role that I have worked in before.-->
+        <!--Each job title is identified with a h2 header-->
+        <!--I used a span in each job title to style the company name using italics and a bold size -->
+        <!--Unordered lists were used for each job responsibility-->
+        <section class="main_content">
+            <h1 id="work_experience">Work Experience</h1>
+            <h2>Production Team Leader, <span>BMW SA (Pty) Ltd.</span>, 2025 - current</h2>
+            <ul>
+                <li>Versatility training of the online associates.</li>
+                <li>Maintain DPU levels to the agreed plant standard.</li>
+                <li>Presnting on defects affecting the plant OEE.</li>
+                <li>Problem solving and containment of defects.</li>
+                <li>Ensuring that immediate subordinates complete their system requirements daily.</li>
+            </ul>
+            <hr>
+            <h2>Customer Team Protection Supervisor, <span>BMW SA (Pty) Ltd.</span>, 2021 - 2025</h2>
+            <ul>
+                <li>Initiate containment action for supplier parts that have a potential negative impact on process
+                    adherence.
+                </li>
+                <li>Conduct root cause analysis to identify the cause of defects in various stages of the value chain.
+                </li>
+                <li>Liaise with various stakeholders about the potential causes of defects.</li>
+                <li>Monitor stock levels and ensure that containment actions do not affect production performance.</li>
+                <li>Conduct several types of system checks in-plant and externally to contain defects that have been
+                    identified beyond a certain quality gate.</li>
+                <li>Raise quality alerts to suppliers and supplier representatives about quality concerns relating to
+                    their parts before any process non-adherence occurs.</li>
+            </ul>
+            <hr>
+            <h2>Assistant Production Manager, <span>Tata Motors SA (Pty) Ltd.</span>, 2016 - 2021</h2>
+            <ul>
+                <li>Work content study of all the models currently under production and arrive at model wise production
+                    targets.</li>
+                <li>Identify bottlenecks for achieving targets across various stages of manufacturing and recommend
+                    actions.</li>
+                <li>Consolidation of data and analysis of defects observed at final buy-off points. Integration of
+                    appropriate corrective actions based on the analysis at relevant points in value creation processes.
+                </li>
+                <li>Implementation of WORLD CLASS QUALITY (WCQ).</li>
+                <li>Study of equipment and facilities such as Roller Tester, Brake Tester, Head Lamp Aiming Equipment,
+                    Number punching machine, smoke meters, tightening tools, Four poster etc. from capacity and
+                    capability perspectives</li>
+                <li>Revision of chassis cards with respect to inspection parameters collated from PDI, Final Buy-off,
+                    End user inspection etc.</li>
+            </ul>
+            <hr>
+            <h2>Production Supervisor, <span>Tata Motors SA (Pty) Ltd.</span>, 2013 - 2016</h2>
+            <ul>
+                <li>Assemble new models according to the New Product Introduction plan.</li>
+                <li>Ensure invoicing target is achieved per month.</li>
+                <li>Create production plan per month based on kit availability and customer demand.</li>
+                <li>Improve assembly line productivity and efficiency.</li>
+                <li>Achieve Direct Run Rate (DRR %) target by eliminating production defects.</li>
+            </ul>
+            <hr>
+            <h2>Junior Industrial Engineer, <span>Tata Motors SA (Pty) Ltd.</span>, 2012 - 2013</h2>
+            <ul>
+                <li>Research on the feasibility of introducing a kitting system for the rebate store.</li>
+                <li>Process mapping of the supply chain.</li>
+                <li>Time studies and activity sampling for high-runner models.</li>
+                <li>Improving the line supply method.</li>
+                <li>Planning and implementing 5S and housekeeping activities in the rebate store.</li>
+                <li>Introducing supermarkets to the assembly line.</li>
+            </ul>
+            <hr>
+            <h2>Industrial Engineer Intern, <span>Automotive Industry Development Center</span>, 2011 - 2012</h2>
+            <ul>
+                <li>Planning and implementing 5S and housekeeping activities in the model cell areas</li>
+                <li>Layout design for the introduction of a new cell</li>
+                <li>Time studies and activity sampling for model cells</li>
+                <li>Line balancing and process improvements for model cells</li>
+                <li>Value Stream Mapping to identify potential areas that need improvement</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025</p>
+        <p>Bheki Mdhluli</p>
+        <p><a href="mailto::bheki.vernon@gmail.com">bheki.vernon@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
+
+<!--I made a lot references to different HTML elements from w3schools.com to help me understand their application-->
+<!--https://www.w3schools.com/Html/-->
